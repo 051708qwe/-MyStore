@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jessihuang.gamedemo01"
+    android:versionName="v1.2.4"
+    android:versionCode="1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGETE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity android:name=".Other.Ui.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--引导页-->
+        <activity android:name=".Other.Ui.GuideActivity"></activity>
+        <!--主界面-->
+        <activity android:name=".Other.Ui.HomeActivity"></activity>
+        <!--礼包详情界面-->
+        <activity android:name=".Gift.ui.GiftInfoActivity"></activity>
+        <!--赚钱详情界面-->
+        <activity android:name=".Profit.ui.ProfitInfoActivity"></activity>
+        <activity android:name=".Profit.ui.ProfitLargeImgActivity"></activity>
+    </application>
+
+</manifest>

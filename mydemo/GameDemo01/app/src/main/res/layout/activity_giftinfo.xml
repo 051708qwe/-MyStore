@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_giftdetail_head"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+        <!--左边的布局-->
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.example.jessihuang.gamedemo01.Other.widget.CircleImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/gift_info_head_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/gift_Ub"
+            android:background="@drawable/shape_ub_bg"
+            android:textColor="@color/WHITE"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--右边的布局-->
+
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/WHITE"
+                android:layout_marginTop="15dp"
+                android:id="@+id/gift_info_name"
+                android:text="王者荣耀.72G媒体礼包"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--百分比-->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:textColor="@color/WHITE"
+                    android:text="@string/gift_info_remain"
+                    android:id="@+id/gift_info_remain_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+               <ProgressBar
+                   android:maxWidth="100dp"
+                   android:layout_marginLeft="10dp"
+                    android:progressDrawable="@drawable/layer_progress"
+                   android:layout_gravity="center_vertical"
+                   style="?android:progressBarStyleHorizontal"
+                   android:id="@+id/gift_pro"
+
+                   android:layout_weight="1"
+                   android:layout_width="0dp"
+                   android:layout_height="15dp" />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/WHITE"
+                    android:text="111"
+                    android:id="@+id/id_per_tv"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/WHITE"
+                android:layout_marginTop="5dp"
+                android:text="@string/gift_info_beforedate"
+                android:id="@+id/gift_beforeDate_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:textColor="@color/WHITE"
+                    android:text="@string/gift_info_used"
+                    android:id="@+id/gift_used_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:id="@+id/gift_icon_android"
+                    android:background="@drawable/ic_android"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:id="@+id/gift_icon_ios"
+                    android:background="@drawable/ic_ios"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<RelativeLayout
+
+    android:background="@color/gift_type_bg"
+    android:visibility="gone"
+    android:layout_weight="0.7"
+    android:id="@+id/gift_info_rl"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/gift_info_game_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/gift_info_game_type_tv"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/gift_info_game_size_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="@color/selector_gift_button_blue"
+        android:text="@string/gift_info_download"
+        android:background="@drawable/selector_gift_bule_button"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/gift_info_download_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
+    <View
+        style="@style/public_gray_horien_line">
+
+    </View>
+
+    <!--礼包内容-->
+
+    <LinearLayout
+        android:layout_weight="5.6"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/gift_info_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/public_gray_horien_line">
+
+        </View>
+        <TextView
+            android:id="@+id/gift_info_content_tv"
+            android:textColor="@color/content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="@string/gift_info_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/public_gray_horien_line">
+
+        </View>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/gift_info_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/public_gray_horien_line">
+
+        </View>
+        <TextView
+            android:id="@+id/gift_info_get_tv"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/content"
+            android:textSize="14sp"
+            android:text="@string/gift_info_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/public_gray_horien_line">
+
+        </View>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gift_btn1"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:textColor="@color/selector_gift_button_yellow"
+        android:text="@string/gift_list_btn1"
+        android:background="@drawable/selector_gift_yellow_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/gift_btn2"
+        android:layout_margin="10dp"
+        android:visibility="invisible"
+        android:text="@string/gift_list_btn2"
+        android:textColor="@color/selector_gift_button_blue"
+        android:background="@drawable/selector_gift_bule_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
+

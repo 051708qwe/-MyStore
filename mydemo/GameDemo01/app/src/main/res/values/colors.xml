@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0A85FF</color>
+    <color name="colorAccent">#D1D1D1</color>
+    <color name="GRAY_WHITE">#F7F8FA</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="Gray">#EEEEEE</color>
+    <color name="Light_Gray">#88ffff</color>
+    <color name="LIST_ITEM_TITLE_COLOR">#6B6B6C</color>
+    <color name="LIST_ITEM_CONTENT_COLOR">#989590</color>
+    <color name="YELLOW_BUTTON_COLOR">#FF9C00</color>
+    <color name="content">#484848</color>
+    <color name="per_B">#88C4FF</color>
+    <color name="ub_bgs">#451572A0</color>
+    <color name="per_A">#1572A0</color>
+    <color name="gift_type_bg">#E3E4E6</color>
+
+</resources>

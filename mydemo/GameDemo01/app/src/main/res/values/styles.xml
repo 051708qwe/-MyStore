@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--主页面的radiobutton样式-->
+    <style name="home_radiobutton_style">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_rb_text</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!--一条灰色线-->
+    <style name="public_gray_horien_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/Gray</item>
+    </style>
+    <style name="gift_info_per">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:radius">5dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+    <!--分享菜单的动画-->
+    <style name="share_pop">
+        <item name="android:windowEnterAnimation">@anim/anim_share_pop_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_share_pop_out</item>
+    </style>
+    <style name="upgrate_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+
+    </style>
+
+
+</resources>

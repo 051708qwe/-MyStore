@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <FrameLayout
+        android:id="@+id/home_content_fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/GRAY_WHITE"
+        ></FrameLayout>
+    <RadioGroup
+        android:gravity="center_vertical"
+        android:background="@color/WHITE"
+        android:id="@+id/home_rg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:clickable="true"
+            android:drawableTop="@drawable/selector_home_rb_profit"
+            android:id="@+id/home_profit_rb"
+            android:text="@string/home_radiobutton_profit"
+            style="@style/home_radiobutton_style"
+           />
+        <RadioButton
+
+            android:checked="true"
+            android:id="@+id/home_gift_rb"
+            style="@style/home_radiobutton_style"
+            android:drawableTop="@drawable/selector_home_rb_gift"
+            android:text="@string/home_radiobutton_gift"
+            />
+
+        <RadioButton
+            style="@style/home_radiobutton_style"
+            android:id="@+id/home_active_rb"
+            android:drawableTop="@drawable/selector_home_rb_active"
+            android:text="@string/home_radiobutton_active"
+             />
+
+        <RadioButton
+            android:drawableTop="@drawable/selector_home_rb_exchange"
+            android:id="@+id/home_exchange_rb"
+            style="@style/home_radiobutton_style"
+            android:text="@string/home_radiobutton_exchange"
+             />
+        <RadioButton
+            android:drawableTop="@drawable/selector_home_rb_my"
+            android:id="@+id/home_my_rb"
+            style="@style/home_radiobutton_style"
+            android:text="@string/home_radiobutton_my"
+             />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

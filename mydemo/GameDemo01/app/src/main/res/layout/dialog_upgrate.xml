@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shap_upgrate"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/selector_gift_button_blue"
+        android:text="版本更新提示"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:background="@color/GRAY_WHITE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:textColor="#000"
+        android:background="@color/per_B"
+        android:id="@+id/up_msg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:maxWidth="100dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="10dp"
+        android:progressDrawable="@drawable/layer_progress"
+        android:layout_gravity="center_vertical"
+        style="?android:progressBarStyleHorizontal"
+        android:id="@+id/gift_pro">
+
+    </ProgressBar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@color/selector_gift_button_blue"
+            android:background="@drawable/selector_gift_bule_button"
+            android:id="@+id/up_cancel_tv"
+            android:text="@string/cancel_not_do"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="@color/selector_gift_button_blue"
+            android:background="@drawable/selector_gift_bule_button"
+            android:id="@+id/up_ok_tv"
+            android:text="@string/ok_to__do"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--搜索栏-->
+    <RelativeLayout
+        android:background="@color/WHITE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_hight">
+        <ImageView
+            android:id="@+id/gift_user_head_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_usercenter_avatar"/>
+        <EditText
+            android:hint="@string/gift_search_gift"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_input_background"
+            android:id="@+id/gift_search"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/gift_user_head_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_input_search"
+            android:id="@+id/gift_serachicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+   <View
+        style="@style/public_gray_horien_line">
+
+    </View>
+
+    <!--切换项-->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/WHITE">
+        <TextView
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@color/selector_gift_text"
+            android:background="@drawable/selector_gift_left"
+            android:text="@string/gift_check_gift_mobile"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:id="@+id/gift_type_mobile_tv"/>
+        <TextView
+            android:background="@drawable/selector_gift_right"
+            android:gravity="center"
+            android:text="@string/gift_check_gift_web"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:textColor="@color/selector_gift_text"
+            android:id="@+id/gift_type_web_tv"/>
+
+    </LinearLayout>
+    <View
+        style="@style/public_gray_horien_line">
+
+    </View>
+
+    <!--ListView列表-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gift_type_vp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

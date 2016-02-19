@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:text="111"
+            android:id="@+id/profit_talk_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="25sp"
+            android:text="111"
+            android:layout_alignBaseline="@+id/profit_talk_userName"
+            android:layout_toRightOf="@+id/profit_talk_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:text="22222222222222"
+            android:layout_marginRight="15sp"
+            android:layout_alignBaseline="@+id/profit_talk_userName"
+            android:id="@+id/profit_talk_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="123456798"
+        android:id="@+id/profit_talkcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

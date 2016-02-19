@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">GameDemo01</string>
+    <!--主界面的radiobutton-->
+    <string name="home_radiobutton_profit">赚钱</string>
+    <string name="home_radiobutton_gift">礼包</string>
+    <string name="home_radiobutton_active">活动</string>
+    <string name="home_radiobutton_exchange">兑换</string>
+    <string name="home_radiobutton_my">我的</string>
+    <!--礼包-->
+    <string name="gift_search_gift">搜礼包</string>
+    <!--礼包界面切换项-->
+    <string name="gift_check_gift_mobile">手游礼包</string>
+    <string name="gift_check_gift_web">页游礼包</string>
+
+    <string name="gift_list_btn1">淘号</string>
+    <string name="gift_list_btn2">免费领取</string>
+    <string name="gift_list_remain">剩余:%1d</string>
+    <string name="gift_info_title">礼包详情</string>
+    <string name="gift_info_remain">剩余量:</string>
+    <string name="gift_info_beforedate">有效期: %1$s -- %2$s</string>
+    <string name="gift_info_used">适用于 </string>
+    <string name="gift_info_type">类型: %1s</string>
+    <string name="gift_info_size">大小: %1s</string>
+    <string name="gift_info_content">礼包内容</string>
+    <string name="gift_info_method">领取方法</string>
+    <string name="gift_info_per">%1$d/%2$s</string>
+    <string name="gift_info_cosume">%1s U币</string>
+    <string name="gift_info_download">下载游戏</string>
+    <string name="cancel_not_do">取消</string>
+    <string name="ok_to__do">立即更新</string>
+    <string name="share_wb">微博</string>
+    <string name="share_wx">微信</string>
+    <string name="share_QQ">QQ</string>
+    <string name="share_pyq">朋友圈</string>
+
+
+    <!--赚钱-->
+    <string name="profit_search_game">搜游戏</string>
+    <string name="profit_check_qiandao">签到得分</string>
+    <string name="profit_check_task">今日任务</string>
+    <string name="profit_check_socre">积分商城</string>
+    <string name="profit_list_name"> %1s </string>
+    <string name="profit_list_score">评分：%1s</string>
+    <string name="profit_list_download_time">%1s 人下载</string>
+    <string name="profit_list_game_size"> %1s </string>
+    <string name="profit_list_ub_prize">奖励 %1s 币</string>
+    <string name="profit_title">游戏详情</string>
+    <string name="first_install">首次安装</string>
+    <string name="first_tips">创建角色并且试玩5分钟</string>
+    <string name="profit_game_info">游戏信息</string>
+    <string name="profit_game_gift">游戏礼包</string>
+    <string name="profit_talk">评论</string>
+    <string name="profit_try_play">试玩信息</string>
+    <string name="profit_try_play_tips">下载试玩三分钟才能获得奖励！</string>
+    <string name="profit_try_play_tips_bule">注：必须在72G手游助手下载游戏才能获得奖励！</string>
+    <string name="intruduce">游戏介绍</string>
+    <string name="guess_like">猜你喜欢</string>
+    <string name="profit_info_ver">版本：%1s |</string>
+    <string name="profit_info_commit">提交</string>
+    <string name="profit_info_download">%1s次下载</string>
+    <string name="profit_info_talk">下载</string>
+    <string name="profit_done">已完成</string>
+    <string name="profit_not_done">未完成</string>
+    <string name="profit_ub_plus">+%1s</string>
+    <string name="profit_publish_talk">发表评论</string>
+    <!--社区活动-->
+    <string name="active_title">社区活动</string>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/num_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="10sp"
+                android:text="@string/first_install"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="#f00"
+                android:text="@string/first_tips"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/profit_ub_prize"
+                android:textColor="#f00"
+                android:gravity="center_vertical"
+                android:text="@string/profit_ub_plus"
+                android:layout_marginRight="2sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginLeft="2sp"
+                android:gravity="center_vertical"
+                android:src="@drawable/icon_ub"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/profit_charge_do"
+                android:layout_margin="4sp"
+                android:clickable="false"
+                android:textColor="@color/selector_gift_button_blue"
+                android:background="@drawable/selector_gift_bule_button"
+                android:layout_width="50sp"
+                android:layout_height="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="7sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_marginLeft="5sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="@string/profit_try_play"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp" />
+        <TextView
+            android:layout_marginTop="7sp"
+            android:textSize="10sp"
+            android:layout_marginLeft="5sp"
+            android:text="@string/profit_try_play_tips"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp" />
+        <TextView
+            android:textSize="10sp"
+            android:layout_marginLeft="5sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/profit_try_play_tips_bule"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp" />
+    </LinearLayout>
+    <View
+        style="@style/public_gray_horien_line">
+
+    </View>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="@string/intruduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/profit_intrduce_text"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        style="@style/public_gray_horien_line">
+
+    </View>
+    <LinearLayout
+        android:layout_margin="5sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5sp"
+            android:text="@string/guess_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/profit_guess_like_icon1"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="0sp"
+                android:layout_height="50sp" />
+            <ImageView
+                android:id="@+id/profit_guess_like_icon2"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="0sp"
+                android:layout_height="50sp" />
+            <ImageView
+                android:id="@+id/profit_guess_like_icon3"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="0sp"
+                android:layout_height="50sp" />
+            <ImageView
+                android:id="@+id/profit_guess_like_icon4"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="0sp"
+                android:layout_height="50sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/profit_buttom_game_name_1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="2222"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_game_name_2"
+                android:gravity="center"
+                android:text="2222"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_game_name_3"
+                android:gravity="center"
+                android:text="2222"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_game_name_4"
+                android:gravity="center"
+                android:text="2222"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/profit_buttom_download_time1"
+                android:gravity="center"
+                android:text="333"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_download_time2"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="333"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_download_time3"
+                android:gravity="center"
+                android:text="333"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/profit_buttom_download_time4"
+                android:gravity="center"
+                android:text="333"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
